@@ -51,4 +51,4 @@ su game -s /bin/sh -p -c "ln -s /data/java/jre64 /data/game/jre64"
 # Start server
 echo "Launching server..."
 cd /data/game
-su game -s /bin/sh -p -c "./start-server.sh -adminpassword ${ADMINPASSWD}"
+su game -s /bin/sh -p -c "./start-server.sh -adminpassword ${ADMINPASSWD} -steamport1 ${STEAMPORT1} -steamport2 ${STEAMPORT2}"

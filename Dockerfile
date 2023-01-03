@@ -5,7 +5,9 @@ LABEL maintainer="Junyu Long"
 ENV TIMEZONE=Asia/Shanghai \
     UID=1000 \
     GID=1000 \
-	ADMINPASSWD=123456
+    ADMINPASSWD=123456 \
+	STEAMPORT1=8766 \
+	STEAMPORT2=8767
 
 VOLUME ["/home/game/Zomboid"]
 
